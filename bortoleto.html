@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gabriel Bortoleto | Future F1 Star</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    background:#0a0a0f;
+    color:#fff;
+    overflow-x:hidden;
+}
+
+header{
+    position:fixed;
+    width:100%;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:rgba(0,0,0,0.6);
+    backdrop-filter:blur(10px);
+    z-index:1000;
+}
+
+header h1{
+    font-family:'Orbitron', sans-serif;
+    font-weight:900;
+    letter-spacing:2px;
+    color:#00ffcc;
+}
+
+nav a{
+    margin-left:25px;
+    text-decoration:none;
+    color:#fff;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#00ffcc;
+}
+
+.hero{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+    padding:0 10%;
+    background:linear-gradient(135deg,#000000,#0f2027,#203a43);
+}
+
+.hero h2{
+    font-size:4rem;
+    font-family:'Orbitron', sans-serif;
+    background:linear-gradient(90deg,#00ffcc,#00b3ff);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.hero p{
+    margin-top:20px;
+    max-width:700px;
+    opacity:0.8;
+}
+
+.btn{
+    margin-top:40px;
+    padding:15px 40px;
+    border:none;
+    background:#00ffcc;
+    color:#000;
+    font-weight:600;
+    font-size:1rem;
+    border-radius:40px;
+    cursor:pointer;
+    transition:0.4s;
+}
+
+.btn:hover{
+    transform:scale(1.1);
+    box-shadow:0 0 25px #00ffcc;
+}
+
+.section{
+    padding:100px 10%;
+    text-align:center;
+}
+
+.section h3{
+    font-size:2.5rem;
+    margin-bottom:50px;
+    font-family:'Orbitron', sans-serif;
+    color:#00ffcc;
+}
+
+.stats{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:#111;
+    padding:40px;
+    border-radius:20px;
+    transition:0.4s;
+    border:1px solid transparent;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    border:1px solid #00ffcc;
+    box-shadow:0 0 20px rgba(0,255,204,0.3);
+}
+
+.card h4{
+    font-size:2rem;
+    color:#00ffcc;
+}
+
+footer{
+    padding:40px;
+    text-align:center;
+    background:#000;
+    font-size:0.9rem;
+    opacity:0.7;
+}
+
+/* Responsivo */
+@media(max-width:768px){
+    .hero h2{
+        font-size:2.5rem;
+    }
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>BORTOLETO</h1>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#carreira">Carreira</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>O FUTURO DA F1 É BRASILEIRO 🇧🇷</h2>
+    <p>
+        Velocidade. Talento. Mentalidade campeã.
+        Gabriel Bortoleto representa a nova geração do automobilismo mundial.
+    </p>
+    <button class="btn">Acompanhar Temporada</button>
+</section>
+
+<section class="section" id="sobre">
+    <h3>Sobre</h3>
+    <p>
+        Natural do Brasil, <strong>Gabriel Bortoleto</strong> vem conquistando espaço no cenário internacional com performances dominantes nas categorias de base e projeção para a elite do automobilismo.
+    </p>
+</section>
+
+<section class="section" id="carreira">
+    <h3>Destaques da Carreira</h3>
+    <div class="stats">
+        <div class="card">
+            <h4>🏆 Campeão</h4>
+            <p>Fórmula 3</p>
+        </div>
+        <div class="card">
+            <h4>🚀 F2</h4>
+            <p>Ascensão meteórica</p>
+        </div>
+        <div class="card">
+            <h4>🇧🇷 Brasil</h4>
+            <p>Orgulho nacional</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="contato">
+    <h3>Contato & Parcerias</h3>
+    <p>Interessado em patrocínio ou parceria estratégica?</p>
+    <button class="btn">Entrar em Contato</button>
+</section>
+
+<footer>
+    © 2026 Gabriel Bortoleto Fan Page | Desenvolvido com paixão por velocidade.
+</footer>
+
+</body>
+</html>
