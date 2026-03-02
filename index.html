@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charles Leclerc - Scuderia Ferrari</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #c00000;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header img {
+      height: 80px;
+    }
+
+    nav {
+      background-color: #111;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 15px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 10px 15px;
+      font-weight: bold;
+      text-transform: uppercase;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #c00000;
+    }
+
+    .hero {
+      background: url('https://img2.51gt3.com/rac/racer/202503/fe2de9975d864e38acfd9933164954a6.png?x-oss-process=style/_nowm') no-repeat center center;
+      background-size: cover;
+      height: 85vh;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      text-align: center;
+      padding-bottom: 50px;
+      border-bottom: 30px solid #c00000;
+    }
+
+    .hero h2 {
+      background-color: rgba(0,0,0,0.7);
+      padding: 20px 40px;
+      font-size: 2.8em;
+      border: 3px solid #c00000;
+      text-transform: uppercase;
+      box-shadow: 0 0 10px #c00000;
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .section h3 {
+      color: #c00000;
+      font-size: 2.4em;
+      margin-bottom: 25px;
+      text-transform: uppercase;
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .gallery img {
+      width: 300px;
+      border-radius: 10px;
+      border: 2px solid #c00000;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px #c00000;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .stat {
+      background-color: #111;
+      padding: 25px;
+      border-radius: 10px;
+      width: 220px;
+      box-shadow: 0 0 10px #222;
+    }
+
+    .stat h4 {
+      font-size: 2.2em;
+      color: #c00000;
+      margin: 0;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 30px;
+      background-color: #c00000;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+      transition: background 0.3s, box-shadow 0.3s;
+      margin-top: 25px;
+      box-shadow: 0 0 10px #900000;
+    }
+
+    .btn:hover {
+      background-color: #900000;
+      box-shadow: 0 0 15px #c00000;
+    }
+
+    footer {
+      background-color: #111;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      border-top: 2px solid #c00000;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Charles Leclerc</h1>
+</header>
+
+<nav>
+  <a href="#biografia">Biografia</a>
+  <a href="#estatisticas">Estatísticas</a>
+  <a href="#galeria">Galeria</a>
+  <a href="#ferrari">Equipe</a>
+  <a href="#videos">Vídeos</a>
+  <a href="#loja">Loja</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<section class="hero">
+  <h2>Velocidade. Técnica. Paixão.</h2>
+</section>
+
+
+  <section id="biografia" class="section">
+    <h3>Biografia</h3>
+    <p>Charles Leclerc é piloto da Fórmula 1 pela Scuderia Ferrari. Nascido em Mônaco, ele é reconhecido por sua velocidade, técnica e determinação. Desde sua estreia, conquistou fãs ao redor do mundo e se tornou um dos principais nomes da categoria.</p>
+  </section>
+
+  <section id="estatisticas" class="section">
+    <h3>Estatísticas</h3>
+    <div class="stats">
+      <div class="stat">
+        <h4>5</h4>
+        <p>Vitórias</p>
+      </div>
+      <div class="stat">
+        <h4>30+</h4>
+        <p>Pódios</p>
+      </div>
+      <div class="stat">
+        <h4>10</h4>
+        <p>Pole Positions</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria" class="section">
+    <h3>Galeria</h3>
+    <div class="gallery">
+      <img src="https://media.formula1.com/image/upload/content/dam/fom-website/manual/Misc/2023/Drivers/Charles-Leclerc-Ferrari-2023.jpg" alt="Leclerc Ferrari">
+      <img src="https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2024Drivers/charles-leclerc/leclerc-action.jpg" alt="Leclerc em ação">
+      <img src="https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2024Drivers/charles-leclerc/leclerc-celebration.jpg" alt="Leclerc comemorando">
+    </div>
+  </section>
+
+  <section id="ferrari" class="section">
+    <h3>Equipe Ferrari</h3>
+    <p>A Scuderia Ferrari é a equipe mais tradicional da Fórmula 1. Com uma história repleta de títulos e conquistas, representa paixão, inovação e excelência no automobilismo.</p>
+    <a href="https://www.ferrari.com/en-EN/formula1" class="btn" target="_blank">Visite Ferrari</a>
+  </section>
+
+  <section id="videos" class="section">
+    <h3>Vídeos</h3>
+    <p>Assista aos melhores momentos de Charles Leclerc nas pistas.</p>
+    <a href="https://www.youtube.com/results?search_query=Charles+Leclerc+Ferrari" class="btn" target="_blank">Assistir</a>
+  </section>
+
+  <section id="loja" class="section">
+    <h3>Loja Oficial</h3>
+    <p>Adquira produtos oficiais da Ferrari e do Charles Leclerc.</p>
+    <a href="https://store.ferrari.com/en" class="btn" target="_blank">Comprar Agora</a>
+  </section>
+
+  <section id="contato" class="section">
+    <h3>Contato</h3>
+    <p>Entre em contato para parcerias e informações.</p>
+    <a href="mailto:contato@charlesleclerc.com" class="btn">Enviar Email</a>
+  </section>
+
+  <footer>
+    &copy; 2026 Landing Page Charles Leclerc - Inspirada na Scuderia Ferrari
+  </footer>
+</body>
+</html>
